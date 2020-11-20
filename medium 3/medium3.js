@@ -1,4 +1,4 @@
-function gdc_two_numbers(a, b) {
+function gdcTwoNumbers(a, b) {
     var R;
     while ((a % b) > 0)  {
       R = a % b;
@@ -8,4 +8,4 @@ function gdc_two_numbers(a, b) {
     return b;
   }
   
-  console.log(gdc_two_numbers(666,420));
+  console.log(gdcTwoNumbers(600,420));

@@ -26,7 +26,7 @@ class car{
     }
   }
   
-  let c1 = new car("honda", "Civic", "2019", 666);
+  let c1 = new car("scion", "frs", "2012", 100);
   c1.driveAroundTheWorld();
   
   c1.runErrands();

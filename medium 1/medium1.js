@@ -4,11 +4,11 @@ var Vowel = function(letter) {
 
     for(var i = 0; i < vowels.length; i++){
         if(letter === vowels[i]){
-            return ("This is a vowel");
+            return ("vowel");
          }
     }
 
-    return ("This is not a vowel");
+    return ("not a vowel");
 
 };
 console.log(Vowel("o"));  
